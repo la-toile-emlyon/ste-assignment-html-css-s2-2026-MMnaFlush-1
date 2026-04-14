@@ -11,6 +11,7 @@
 /* ==============***TEXTE ET LIENS***============== */
 a{
     text-decoration: none;
+    color : #000;
 }
 
 .bold{
@@ -184,9 +185,50 @@ a{
     padding-left: 20px;
     padding-right: 20px;
 }
+/* ==============***COMMUN***============== */
+.btn{
+color: #FFF;
+background-color: #000;
+text-decoration: none;
+font-size: 11px;
+border-radius: 30%;
+gap: 15px 50px 15px 50px;
+font-family: "Manrope", sans-serif;
+
+}
 
 /* ==============***HEADER***============== */
+header{
+height: 60px;
+background-color: #ea9898;
+}
+.navbar{
+    margin: auto;
+    display: flex;
+justify-content: flex-end;
+margin-right: 60px;
+gap: 32px;
+}
+.logo{
+height: 60px;
+width: auto;
+position: relative;
+padding-left: 10px;
+padding-top: 5px;
+}
 
 
-/* ==============***MENUBAR***============== */
+/* ==============***HERO***============== */
+
+.hero {
+background-color: #ca8ab2;
+height: 70vh;
+padding-top: 100px;
+align-content: center;
+}
+
+.heroimg{
+justify-content: right;
+margin-top: -100px;
+}
 

@@ -1,46 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Architecture</title>
     <link rel="stylesheet" href="style.css">
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
-    />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 </head>
+
 <body>
-    <header>
-        <img class="logo" src="asset/logo 1.png" alt=" "width="307" 
-         height="168">
-         <nav class="">
-            <ul>
-                <li>Lien 1</li>
-                <li>Lien 2</li>
-                <li>Lien 3</li>
+    <header class="flex">
+        <img class="logo" src="asset/logo 1.png" alt=" " width="188" height="98">
+        <nav class="navbar">
+            <ul class="flex headerlink gap-32">
+                <li><a href="#">Lien 1</a></li>
+                <li><a href="#">Lien 2</a></li>
+                <li><a href="#">Lien 3</a></li>
             </ul>
 
-            <button class="" type="button">Contact</button>
-         </nav>
-
+            <button class="btn" type="button">Contact</button>
+        </nav>
     </header>
-        <main class="main-content">
-            <section class="hero">
-                <div class="hero-content">
-                    <h1>Clémence Rivière Studio</h1>
-                    <p class="sub-title"> Révéler le potentiel de chaque espace</p>
-                    <a href="" class="CTA">Prendre un rendez-vous</a>
-                    <a href="" class="CTA">Voir mes réalisations</a>
+
+    <main class="main-content">
+
+        <!--=========***HERO***=========-->
+        <section class="hero space-between flex">
+
+            <div class="hero-content w-48">
+                <h1>Clémence Rivière Studio</h1>
+                <p class="sub-title"> Révéler le potentiel de chaque espace</p>
+                <a href="" class="btn">Prendre un rendez-vous</a>
+                <a href="" class="CTA">Voir mes réalisations</a>
+            </div>
+             <img class="heroimg w-48" src="asset/decoration-interieur.png" alt=" " width="600" height="auto">
+
+        </section>
+
+        <!--=========***SECTION PROMESSE***=========-->
+        <section class="">
+            <div class="sub-content">
+                <h2 class="">Promesses clients</h2>
+                <p>Une approche centrée sur vos besoins et votre bien-être</p>
+            </div>
+
+            <div class="liste">
+                <ul class="">
+                    <li><i class="ph ph-check-circle"></i>Une approche humaine et créative, centrée sur vos usages et
+                        vos envies</li>
+                    <li><i class="ph ph-check-circle"></i>Des matériaux durables et des fournisseurs locaux privilégiés
+                    </li>
+                    <li><i class="ph ph-check-circle"></i>Une expertise esthétique alliée à une rigueur technique</li>
+                    <li><i class="ph ph-check-circle"></i>Un accompagnement complet, du croquis à la réception du
+                        chantier</li>
+                </ul>
+
+                <button class="btn" type="button">Appel à l'action</button>
+
+            </div>
+            <div class="images-promesse">
+                <img class="images" src="asset/promesses.png" alt=" " width="559" height="264">
+                <div class="petites images">
+                    <img class="images" src="asset/promesses.png" alt=" " width="240" height="212">
+                    <img class="images" src="asset/promesses.png" alt=" " width="240" height="212">
                 </div>
-            </section>
-        </main>
-    
+            </div>
+        </section>
+
+        <!--=========***SECTION SERVICE***=========-->
+        <section class="services">
+            <h2>Services proposés</h2>
+            <div class="groupeIMG">
+
+                <!--Service 1-->
+                <div class="image1">
+                    <img class="images" src="asset/Rectangle 37.png" alt=" " width="429" height="278">
+                    <h3> Rénovation d'appartements</h3>
+                    <p>Repenser la circulation, les volumes et la lumière pour créer des intérieurs
+                        élégants, fonctionnels et chaleureux.</p>
+                    <button class="btn" type="button">CTA</button>
+                </div>
+                <!--Service 2-->
+                <div class="image1">
+                    <img class="images" src="asset/Rectangle 37.png" alt=" " width="429" height="278">
+                    <h3> Aménagement sur mesure</h3>
+                    <p> Conception de mobilier intégré et d'espaces adaptés à vos besoins :
+                        bibliothèques, rangements, cuisines, bureaux...</p>
+                    <button class="btn" type="button">CTA</button>
+                </div>
+                <!--Service 3-->
+                <div class="image1">
+                    <img class="images" src="asset/Rectangle 37.png" alt=" " width="429" height="278">
+                    <h3> Décoration intérieure</h3>
+                    <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui
+                        donner une identité unique.</p>
+                    <button class="btn" type="button">CTA</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=========***SECTION REALISATION / PROJECT***=========-->
+        <section class="project">
+            <h2 class="">Réalisations</h2>
+
+            <div class="projet1">
+                <img class="images" src="asset/Rectangle 38.png" alt=" " width="668" height="283">
+                <h4> Appartement Haussmannien – Lyon 6e</h4>
+                <p>Rénovation complète d’un appartement de 120 m² : ouverture des
+                    espaces, mise en valeur des moulures et création d’une cuisine
+                    contemporaine contrastée.</p>
+            </div>
+
+            <div class="projet2">
+                <h4> Maison contemporaine – Annecy</h4>
+                <p> Aménagement intérieur complet : création d’un grand espace de vie
+                    traversant, matériaux naturels et mobilier sur mesure en bois clair.</p>
+                <img class="images" src="asset/Rectangle 38.png" alt=" " width="668" height="283">
+            </div>
+
+            <div class="projet3">
+                <img class="images" src="asset/Rectangle 38.png" alt=" " width="668" height="283">
+                <h4> Studio étudiant – Villeurbanne</h4>
+                <p> Optimisation d’un petit espace de 25 m² avec mobilier modulable et
+                    ambiance minimaliste chaleureuse.</p>
+            </div>
+
+            <div class="projet4">
+                <h4> Boutique artisanale – Croix-Rousse</h4>
+                <p>Transformation d’un ancien atelier en boutique lumineuse : jeu de
+                    textures entre béton ciré, bois brut et verrières d’atelier.</p>
+                <img class="images" src="asset/Rectangle 38.png" alt=" " width="668" height="283">
+            </div>
+        </section>
+
+        <!--=========***TEMOIGNAGE***=========-->
+
+        <section class="témoignage">
+            <h2>Témoignages</h2>
+            <p><i class="ph ph-caret-left"></i></p>
+            <p><i class="ph ph-caret-right"></i></p>
+            <div>
+
+                <div class="comment1">
+                    <p class="comment">Clémence a su repenser notre espace avec beaucoup d’intelligence et de
+                        goût. Le résultat est à la fois pratique et sublime.</p>
+                    <p class="name">Mathilde</p>
+                    <p class="job">Rénovation d'appartement</p>
+                </div>
+                <div class="comment2">
+                    <p class="comment"> Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur
+                        mesure sont parfaits et l’espace respire.</p>
+                    <p class="name">Olivier</p>
+                    <p class="job"> Aménagement de bureau</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h4>Prêts à travailler ensemble?</h4>
+            <p> Une idée un projet ? Contactez nous nous serons ravis d'en discuter avec vous. Laissez votre contact de
+                téléphone.</p>
+
+            <div class="footer content">
+                <div class="links">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="ph ph-facebook-logo"></i>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="ph ph-instagram-logo"></i>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="ph ph-linkedin-logo"></i>
+                    </a>
+                </div>
+                <input type="text" value="Nom">
+                <input type="text" value="Téléphone">
+                <input type="text" value="E-mail">
+                <input type="text" value="Message">
+                <button class="btn" type="button">Envoyer</button>
+
+            </div>
+        </footer>
+    </main>
+
 </body>
+
 </html>
