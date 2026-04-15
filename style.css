@@ -37,6 +37,18 @@ a{
   font-style: normal;
 }
 
+.line1{
+        line-height: 1.6;
+}
+
+.line2{
+        line-height: 2.0;
+}
+.txt-align{
+    text-align: center;
+}
+
+
 /* ------------------------------
             LARGEURS
  ---------------------------------*/
@@ -53,7 +65,9 @@ a{
 .w-48{
     width: 48%;
 }
-
+.w-40{
+    width: 40%;
+}
 .w-30 {
     width: 30%;
 }
@@ -87,6 +101,13 @@ a{
     justify-content: center;
 }
 
+.flex-end{
+    justify-content: flex-end;
+}
+.align-content{
+    align-content: center;
+}
+
 .grid{
       display: grid;
 }
@@ -101,6 +122,10 @@ a{
 
 .gap-32{
     gap: 32px;
+}
+
+.gap-42{
+    gap: 42px;
 }
 
 /* ------------------------------
@@ -124,6 +149,12 @@ a{
 .mb-32{
     margin-bottom: 32px;
 }
+.mb-64{
+    margin-bottom: 64px;
+}
+.mt-64{
+    margin-top: 64px;
+}
 
 .mt-128{
     margin-top: 128px;
@@ -133,6 +164,13 @@ a{
     margin-bottom: 128px;
 }
 
+.ml-32{
+margin-left: 32px;
+}
+
+.mr-32{
+margin-right: 32px;
+}
 /* padding */
 
 
@@ -177,6 +215,15 @@ a{
     padding-right: 20px;
 }
 
+.container-1100{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .container-1200{
     max-width: 1200px;
     width: 100%;
@@ -194,8 +241,20 @@ font-size: 11px;
 border-radius: 30%;
 gap: 15px 50px 15px 50px;
 font-family: "Manrope", sans-serif;
-
+margin-top: 10px;
 }
+
+.btn-center{
+transform: translate(145px, 0px);
+}
+.btn12{
+    margin-top: -4px;
+}
+h2{
+    margin: 74px auto 105px auto;
+    text-align: center;
+}
+
 
 /* ==============***HEADER***============== */
 header{
@@ -210,25 +269,66 @@ margin-right: 60px;
 gap: 32px;
 }
 .logo{
-height: 60px;
+height: 80px;
 width: auto;
 position: relative;
 padding-left: 10px;
-padding-top: 5px;
+margin-top: -10px;
 }
-
 
 /* ==============***HERO***============== */
 
-.hero {
-background-color: #ca8ab2;
-height: 70vh;
-padding-top: 100px;
+.hero-content{
+    padding-left: 100px;
+    line-height: 1.6;
+}
+
+.CTA {
+    padding-left: 32px;
+}
+
+/* ==============***PROMESSE***============== */
+
+.w-50g{
+    width: calc(50% - 8px);
+}
+
+.m50{
+    margin-left: 100px;
+}
+
+/* ==============***SERVICES***============== */
+
+.card {
+    width: 28%;
+    padding: 8px;
+    background-color: rgb(255, 87, 87);
+    border-radius: 16px;
+}
+
+/* ==============***REALISATION***============== */
+
+.h100{
+height: 60vh;
 align-content: center;
+
+h4 {
+    margin-bottom: 22px;
+    font-size: 22px;
+}
 }
 
-.heroimg{
-justify-content: right;
-margin-top: -100px;
+/* ==============***TEMOIGNAGES***============== */
+
+.ph ph-caret-left {
+transform: translate(0px, 0px);
+
 }
 
+.ph ph-caret-right {
+transform: translate(0, 0px);
+}
+
+.picture{
+    border-radius: 200px;
+}
